@@ -7,7 +7,7 @@ using Wangkanai.Detection;
 using System;
 using Miya.Core.Utills.Url;
 
-namespace Miya.Api.Filters
+namespace Miya.Filters.Auth.Hmac
 {
     public class HmacTokenControllerAttribute : ActionFilterAttribute
     {

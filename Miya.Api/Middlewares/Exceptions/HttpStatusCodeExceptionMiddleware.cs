@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using System;
 using System.Threading.Tasks;
 
-namespace Miya.Api.Middlewares.Exceptions
+namespace Miya.Middlewares.Exceptions
 {
     public class HttpStatusCodeExceptionMiddleware
     {

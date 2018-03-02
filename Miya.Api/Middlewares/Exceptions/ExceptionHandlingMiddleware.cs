@@ -6,7 +6,7 @@ using System;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace Miya.Api.Middlewares.Exceptions
+namespace Miya.Middlewares.Exceptions
 {
     public class ExceptionHandlingMiddleware
     {

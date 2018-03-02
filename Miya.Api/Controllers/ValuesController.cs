@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Miya.Core.Extensions;
-using Miya.Api.Filters;
+using Miya.Filters;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
 using Wangkanai.Detection;
+using Miya.Filters.Auth.Hmac;
 
 namespace Miya.Api.Controllers
 {

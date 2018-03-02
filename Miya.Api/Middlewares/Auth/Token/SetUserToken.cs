@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Miya.Api.Middlewares.Auth.Token
+namespace Miya.Middlewares.Auth.Token
 {
     public class SetUserToken
     {

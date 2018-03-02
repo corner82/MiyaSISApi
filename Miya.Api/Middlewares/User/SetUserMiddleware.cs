@@ -9,7 +9,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace Miya.Api.Middlewares.User
+namespace Miya.Middlewares.User
 {
     public class SetUserMiddleware
     {

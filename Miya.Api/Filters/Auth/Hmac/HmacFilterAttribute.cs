@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Filters;
 
 
-namespace Miya.Api.Filters
+namespace Miya.Filters.Auth.Hmac
 {
     public class HmacFilterAttribute : ActionFilterAttribute
     {

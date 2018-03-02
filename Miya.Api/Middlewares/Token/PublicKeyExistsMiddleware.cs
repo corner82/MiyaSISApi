@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Miya.Core.Extensions;
 
-namespace Miya.Api.Middlewares.Token
+namespace Miya.Middlewares.Token
 {
     public class PublicKeyExistsMiddleware
     {

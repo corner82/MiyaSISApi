@@ -1,22 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Miya.Core.Utills;
 using Miya.Core.Entities.Session;
-using Miya.Api.Filters;
-using Miya.Api.Middlewares.Auth.Token;
+using Miya.Middlewares.Auth.Token;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using Wangkanai.Detection;
 using Miya.Core.Utills.Url;
-using Miya.Api.Middlewares.Token;
-using Miya.Api.Middlewares.User;
+using Miya.Middlewares.User;
+using Miya.Filters.Auth.Hmac;
+using Miya.Middlewares.Token;
 
 namespace Miya.Core
 {
