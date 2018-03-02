@@ -92,7 +92,7 @@ namespace Miya.Core
             app.UseMiddleware<SetUserToken>();
             app.UseMiddleware<SetUserMiddleware>();
             
-            app.UseMvc();
+            app.UseMvc();  
         }
     }
 }
